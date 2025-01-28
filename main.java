@@ -1,11 +1,11 @@
-public class Main {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-        for (int i = 1; i <= 4; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println(); // Moves to the next line after each row of stars
-        }
+public class Main {
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);  // Corrected line
+        System.out.println("Ankit Dharmendra Singh");
+        String name = input.nextLine();
+
+        System.out.println("My name is " + name);
     }
 }
