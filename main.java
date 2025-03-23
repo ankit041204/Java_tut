@@ -6,8 +6,8 @@ public class main{
 
         int a= sc.nextInt();
         int b= sc.nextInt();
-        int product = a * b;
+        int subtract = a - b;
 
-        System.out.println(product);
+        System.out.println(subtract);
     }
 }
