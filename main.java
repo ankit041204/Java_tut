@@ -6,8 +6,8 @@ public class main{
 
         int a= sc.nextInt();
         int b= sc.nextInt();
-        int subtract = a - b;
+        int divide = a/b;
 
-        System.out.println(subtract);
+        System.out.println(divide);
     }
 }
