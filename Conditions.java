@@ -7,9 +7,9 @@ public class Conditions{
         int age = sc.nextInt();
 
         if(age>=18){
-            System.out.println("He/She is adult");
+            System.out.println("Can donate blood");
         }else{
-            System.out.println("Not adult");
+            System.out.println("Cannot donate blood");
         }
     }
     
