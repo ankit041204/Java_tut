@@ -4,12 +4,12 @@ public class Conditions{
     public static void main(String args[]){
         Scanner sc = new Scanner (System.in);
 
-        int age = sc.nextInt();
+        int x = sc.nextInt();
 
-        if(age>=18){
-            System.out.println("Can donate blood");
+        if(x%2==0){
+            System.out.println("The given number is Even");
         }else{
-            System.out.println("Cannot donate blood");
+            System.out.println("Not Even");
         }
     }
     
