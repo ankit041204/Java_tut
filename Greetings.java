@@ -1,9 +1,17 @@
+import java.lang.runtime.SwitchBootstraps;
 import java.util.Scanner;
 
 public class Greetings{
     public static void main(String args[]){
 
-        int button = sc.nextInt();
+        SwitchBootstraps(args) {
+            case value:
+                
+                break;
+        
+            default:
+                break;
+        } button = sc.nextInt();
         if (button =1){
             System.out.println("Hello");
         }else if(button =2){
