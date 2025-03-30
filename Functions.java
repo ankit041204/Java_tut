@@ -7,11 +7,11 @@ public class Functions{
         Scanner sc = new Scanner (System.in);
         int a= sc.nextInt();
         int b= sc.nextInt();
-        int c= sc.nextInt();
-        int product = a*b*c;
+    
+        int divide = a/b;
         
 
-        System.out.println("Product of three numbers is:" +product);
+        System.out.println("division of two numbers is:" +divide);
 
     }
 }
