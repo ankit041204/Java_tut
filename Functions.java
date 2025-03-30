@@ -7,11 +7,10 @@ public class Functions{
         Scanner sc = new Scanner (System.in);
         int a= sc.nextInt();
         int b= sc.nextInt();
-        int c= sc.nextInt();
-        int sum = a+b+c;
+        int product = a*b;
         
 
-        System.out.println("Sum of three numbers is:" +sum);
+        System.out.println("Product of two numbers is:" +product);
 
     }
 }
