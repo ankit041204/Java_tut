@@ -5,8 +5,8 @@ public class Strings{
     public static void main(String args[]){
 
         Scanner sc = new Scanner(System.in);
-        String age = sc.next();
+        String villageString = sc.next();
 
-        System.out.println("Your age is :"+age);
+        System.out.println("Your village is :"+villageString);
     }
 }
