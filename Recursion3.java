@@ -9,7 +9,7 @@ public class Recursion3{
         printRev(str,idx-1);
     }
     public static void main(String args[]){
-        String str = "1234567890";
+        String str = "Ankit";
         printRev(str,str.length()-1);
     }
 }
