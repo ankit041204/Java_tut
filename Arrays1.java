@@ -13,5 +13,9 @@ public class Arrays1{
         System.out.println("Chemistry:" +marks[1]);
         System.out.println("Maths:" +marks[2]);
 
+        int percentage = (marks[0]+marks[1]+marks[2])/3;
+
+        System.out.println("percentage ="+percentage+"%");
+
     }
 }
