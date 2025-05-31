@@ -1,4 +1,4 @@
-public class Functions7 {
+public class Functions7{
 
     public static void binToDec(int binNum) {
         int myNum = binNum;
