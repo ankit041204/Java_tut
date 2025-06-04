@@ -1,6 +1,6 @@
 public class Arrays6{
     public static void printSubArrays(int numbers[]){
-        int ts=0;
+        
         for (int i=0;i<numbers.length;i++){
             int start =i;
             for (int j=i;j<numbers.length;j++){
@@ -10,7 +10,7 @@ public class Arrays6{
                 for (int k=start; k<=end;k++){
                     System.out.println(numbers[k]+" ");
                 }
-                ts++;
+        
                 System.out.println();
             }
             System.out.println();
