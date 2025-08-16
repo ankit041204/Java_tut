@@ -2,18 +2,9 @@ import java.util.Scanner;
 public class practice{
     public static void main(String args[]){
     
-        Scanner sc = new Scanner (System.in);
-        int income =sc.nextInt();
-        int tax;
+        int number = 9;
+        String type = ((number % 2)==0)?"even":"odd";
 
-        if (income<500000){
-            tax =0;
-        }else if(income >=500000 && income<1000000){
-            tax = (int) (income*0.2);
-        }else{
-            tax = (int) (income*0.3);
-        }
-
-        System.out.println("Your tax is :"+ tax);
+        System.out.println(type);
     }
 }
