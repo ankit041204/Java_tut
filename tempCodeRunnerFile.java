@@ -1,1 +1,1 @@
-args
+input
