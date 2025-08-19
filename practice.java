@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class practice{
     public static void main(String args[]){
-    int counter =0;
-    while (counter <10){
-        System.out.println("Hello Ankit");
+    int counter =1;
+    while (counter <= 10){
+        System.out.println(counter);
         counter ++;
     }
     }
