@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class practice{
     public static void main(String args[]){
-    
-        int number = 9;
-        String type = ((number % 2)==0)?"even":"odd";
-
-        System.out.println(type);
+    int counter =0;
+    while (counter <10){
+        System.out.println("Hello Ankit");
+        counter ++;
+    }
     }
 }
