@@ -1,15 +1,13 @@
 import java.util.Scanner;
 public class practice{
     public static void main(String args[]){
-        int n=182368;
-        while(n>0){
 
-            int lastDigit = n%10;
-            System.out.print(lastDigit+" ");
+        int counter =1;
+        do{
+            System.out.println("Hello world");
 
-            n=n/10;
-        }
-        System.out.println();
-  
+            counter ++;
+        }while(counter<=10);
+        
     }
 }
