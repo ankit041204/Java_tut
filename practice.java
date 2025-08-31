@@ -2,13 +2,14 @@ import java.util.Scanner;
 public class practice{
     public static void main(String args[]){
 
-     for (int i=1; i<=10; i++){
-        if (i==6){
-            continue;
+        int n=5;
+     for (int line=1; line<=5; line++){
+        for (int star=1;star<= n-line+1;star++){
+            System.out.print("*");
         }
-        System.out.print(i+" ");
+        System.out.println();
      }
-}
+    }
 }
 
 
