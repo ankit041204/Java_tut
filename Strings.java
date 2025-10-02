@@ -1,12 +1,11 @@
-
 import java.util.Scanner;
-public class Strings{
+    public class Strings{
 
-    public static void main(String args[]){
+        public static void main (String args[]){
+            Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-        String villageString = sc.next();
-
-        System.out.println("Your village is :"+villageString);
+            String name;
+            name = sc.nextLine();
+            System.out.println(name.length());
+        }
     }
-}
