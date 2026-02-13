@@ -1,0 +1,4 @@
+import java.io.*;
+import java.util.ArrayList;
+public class ArrayList7{
+    public static void main (String args[]){
