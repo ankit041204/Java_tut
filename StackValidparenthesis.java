@@ -1,9 +1,6 @@
 import java.util.Stack;
 
 public class StackValidparenthesis {
-
-    
-
     public static boolean isValid(String str) {
         Stack<Character> stack = new Stack<>();
 
