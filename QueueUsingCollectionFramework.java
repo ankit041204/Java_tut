@@ -9,7 +9,7 @@ public class QueueUsingCollectionFramework{
         q.add(3);
 
         while (!q.isEmpty()){
-            System.out.println(q.peek());
+            System.out.print(q.peek()+" ");
             q.remove();
         }
     }
