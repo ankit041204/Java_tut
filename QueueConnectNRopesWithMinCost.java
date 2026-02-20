@@ -22,6 +22,6 @@ public class QueueConnectNRopesWithMinCost {
         int len[] = {4,3,2,6};
         int size = len.length;
 
-        System.out.println("Total cost for connecting "+"ropes is"+minCost(len,size));
+        System.out.println("Total cost for connecting "+"ropes is"+ minCost(len,size));
     }
 }
