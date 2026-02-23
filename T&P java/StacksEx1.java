@@ -11,6 +11,7 @@ public class StacksEx1 {
         stack.push("Aman");
 
         stack.pop();
+        stack.remove(03);
 
         Iterator<String> itr = stack.iterator();
         while (itr.hasNext()){
