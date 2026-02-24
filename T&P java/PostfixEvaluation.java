@@ -37,6 +37,7 @@ public class PostfixEvaluation {
     public static void main(String[] args) {
         String expression = "23*54*+9-";  
         int result = evaluatePostfix(expression);
-        System.out.println("Result: " + result);
+                System.out.println("Your Result is: "+ result);
     }
-}
+} 
+//reverse a string using stack but without using built in method
