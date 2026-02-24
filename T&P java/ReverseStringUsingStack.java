@@ -4,7 +4,7 @@ public class ReverseStringUsingStack {
 
     public static void main(String[] args) {
 
-        String str = "Aman";
+        String str = "Placement";
         Stack<Character> stack = new Stack<>();
 
         for (int i = 0; i < str.length(); i++) {
@@ -20,3 +20,5 @@ public class ReverseStringUsingStack {
         System.out.println("Reversed String: " + reversed);
     }
 }
+//1.write a stack program to find the next greater element for each array element
+//input : 4,5,2,25;
