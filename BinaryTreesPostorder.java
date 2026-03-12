@@ -1,4 +1,4 @@
-public class BinaryTreesIreorderEx{
+public class BinaryTreesPostorder {
 
     static class Node {
         int data;
@@ -7,22 +7,22 @@ public class BinaryTreesIreorderEx{
 
         Node(int data) {
             this.data = data;
-            left = null;
-            right = null;
+            this.left = null;
+            this.right = null;
         }
     }
 
-    public static void inorder(Node root) {
+    public static void postorder(Node root) {
         if (root == null) {
             return;
         }
 
-        inorder(root.left);       // Left
-        System.out.print(root.data + " "); // Root
-        inorder(root.right);      // Right
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data + " ");
     }
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
 
         Node root = new Node(1);
 
@@ -34,6 +34,6 @@ public class BinaryTreesIreorderEx{
 
         root.right.right = new Node(6);
 
-        inorder(root);
+        postorder(root);
     }
 }
