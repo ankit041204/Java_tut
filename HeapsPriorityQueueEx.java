@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 public class HeapsPriorityQueueEx {
 
     public static void main (String args[]){
-        PriorityQueue<Integer>pq = new PriorityQueue<>(Comparator.reverseOrder());
+        PriorityQueue<Integer>pq = new PriorityQueue<>();
 
         pq.add(3);
         pq.add(4);
